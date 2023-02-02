@@ -1,0 +1,16 @@
+{% extends 'netflix/base.html' %}
+
+{% block title %}
+    main
+{% endblock %}
+
+{% block content %}
+<div class="image"></div> 
+    <form action="{% url 'movie' %}">
+        <input type="text" name="movie" placeholder="Search">
+        <button type="submit" class="btn btn-outline-secondary">
+            Search
+        </button>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'netflix/base.html' %}
+{% load static %}
+
+{% block title %}
+    {{b}}
+{% endblock %}
+
+
+{% block content %}
+    <div class="movie-content">
+
+        {% if photo  %}
+            <img src="{{photo}}" alt="movie"> 
+
+            <div class="descriptoin-movie">
+                <p>{{w}}</p>
+            </div>
+
+        {% else  %}
+            <h4 style="font-size: 3em; color:red;" >{{a}}</h4>
+        {% endif %}
+    </div>
+
+{% endblock %}

@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(17, 17, 17);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    padding: 30px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.bg-image{
+
+    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+}
+footer{
+    padding: 30px;
+    /* border: 2px solid rgb(155, 155, 155);
+    border-radius: 15px; */
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    top: -400px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input{
+    border: 2px solid;
+    padding: 10px;
+    /* border-radius: 15px; */
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+
+}
+button{
+    border: 2px solid ;
+    padding: 10px;
+    /* border-radius: 15px; */
+
+    color: black;
+    background-color: white;
+}
+.image{
+ 
+    background-image: url('movies.webp');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 600px;
+    padding: 86px;
+    border-radius: 10px;
+    opacity: 0.5; 
+    /* position: relative; */
+    
+}
+img{
+    width: 400px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.movie-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+.description{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 15px;
+    border-top: 2px solid rgb(47, 77, 228);
+}
+footer{
+    text-align: center ;
+}
+
